@@ -1,0 +1,47 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.container_itens{
+    display: flex;
+    align-items: center;
+}
+.burguer_menu{
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/Menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.imagem_header{
+    padding: 1em;
+}
+.lista_links{
+    display: none;
+    position: absolute;
+    top: 100%;
+    font-family: 'Poppins', sans-serif;
+    width: 60vw;
+    background-color: var(--fundo-secundario);
+}
+.clique_menu_burguer:checked~.lista_links{
+    display: block;
+}
+.lista_titulo{
+    color: var(--cor-destaque);
+    font-weight: bold;
+}
+.item_lista{
+    background:var(--gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.item_lista , .lista_titulo{
+    padding:5%;
+    font-size: 1rem;
+}
+.clique_menu_burguer{
+    display: none;
+}
