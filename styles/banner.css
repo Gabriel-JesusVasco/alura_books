@@ -1,0 +1,14 @@
+.bunner_pesquisa{
+    background: var(--gradiente);
+    color: var(--fundo-secundario);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.titulo_bunner_pesquisa{
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+.texto_bunner_pesquisa{
+    font-weight: 400;
+    font-size: 1rem;
+}
