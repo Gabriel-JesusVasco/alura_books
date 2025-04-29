@@ -1,0 +1,8 @@
+.titulo_carrossel{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1em;
+    background-color: var(--fundo-secundario);
+    font-weight: 700;
+    color: var(--cor-destaque);
+}

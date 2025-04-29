@@ -3,6 +3,7 @@
     color: var(--fundo-secundario);
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    padding: 2.5em 2em;
 }
 .titulo_bunner_pesquisa{
     font-weight: 700;
@@ -11,4 +12,21 @@
 .texto_bunner_pesquisa{
     font-weight: 400;
     font-size: 1rem;
+    padding: 1em 0;
+}
+.form_pesquisa{
+    background-color: transparent;
+    border: 1px solid var(--fundo-secundario);
+    border-radius: 25px;
+    width: 100%;
+    padding: 1em;
+    color: var(--fundo-secundario);
+}
+.form_pesquisa::placeholder{
+    color:var(--fundo-secundario);
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: center;
+    background: url(../img/Lupa.svg) no-repeat;
+    background-position: 5%;
 }

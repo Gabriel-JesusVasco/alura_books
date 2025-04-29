@@ -1,5 +1,6 @@
 @import url(styles/cabecalho.css);
 @import url(styles/banner.css);
+@import url(styles/carrosseis.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
     --gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37% );
@@ -14,19 +15,4 @@ body{
 .cabecalho{
     background-color: var(--fundo-secundario);
 }
-.bunner_pesquisa{
-    background: var(--gradiente);
-    color: var(--fundo-secundario);
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-}
-.titulo_bunner_pesquisa{
-    padding: 5% 4%;
-    font-weight: 700;
-    font-size: 1.125rem;
-}
-.texto_bunner_pesquisa{
-    font-weight: 400;
-    font-size: 1rem;
-    padding: 0 15%;
-}
+
