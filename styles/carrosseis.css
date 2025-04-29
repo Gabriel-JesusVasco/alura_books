@@ -6,3 +6,6 @@
     font-weight: 700;
     color: var(--cor-destaque);
 }
+.swiper-slide{
+    width: 100%;
+}
