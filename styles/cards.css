@@ -1,0 +1,55 @@
+
+.recomendacao{
+    font-family: 'Poppins', sans-serif;
+    color: var(--cor-destaque);
+    font-weight: 700;
+    font-size: 1rem;
+    padding-top: 0.5em;
+}
+.titulo_card{
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    background:var(--gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0.5em 0;
+}
+.texto_card{
+    font-family: 'Poppins',sans-serif;
+    color: var(--cor-letra);
+    font-size: 0.875rem;
+}
+
+.link_card{
+    background-color: var(--cor-destaque);
+    color: var(--fundo-secundario);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1em 2.2em;
+    text-align: center;
+}
+.conteudo_descricao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+    gap: 1.5em;
+}
+.botoes_card{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    margin: 1em;
+    background-color: var(--fundo-secundario);
+    border-radius:10px ;
+    padding: 1em;
+}
+.botoes_lista{
+    display: flex;
+}
+.item_botao{
+    margin: 0 1em;
+}
