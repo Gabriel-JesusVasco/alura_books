@@ -1,0 +1,28 @@
+.topicos_livros{
+    background: var(--gradiente);
+    color: var(--fundo-secundario);
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-family: 'Poppins',sans-serif;
+}
+.titulo_topicos{
+    padding: 1em 0 0.5em 0;
+    font-size: 1rem;
+}
+.lista_topicos{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em 2.5em;
+    justify-content: center;
+}
+.link_topico{
+    color: var(--fundo-secundario);
+    text-decoration: none;
+    background-color: var(--cor-destaque);
+    padding: 1em;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+.item_topico{
+    margin: 1.5em 0.25em;
+}

@@ -1,0 +1,34 @@
+.contato_conteudo{
+    font-family: 'Poppins', sans-serif;
+    padding: 1em 2em;
+    background-color: var(--fundo-secundario);
+}
+.contato_titulo{
+    font-size: 1.125rem;
+}
+.texto_contato{
+    font-size: 1rem;
+    padding: 1em 0;
+}
+.contato_titulo, .texto_contato{
+    background:var(--gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.input_email{
+    background-color: transparent;
+    border: 1px solid var(--cor-letra);
+    border-radius: 25px;
+    width: 90%;
+    padding: 1em;
+    color: var(--cor-letra);
+}
+.input_email::placeholder{
+    color:var(--cor-letra);
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: center;
+    background: url(../img/Email.svg) no-repeat;
+    background-position: 5%;
+}

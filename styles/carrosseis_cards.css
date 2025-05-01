@@ -1,3 +1,20 @@
+.titulo_carrossel{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 1em;
+    background-color: var(--fundo-secundario);
+    font-weight: 700;
+    color: var(--cor-destaque);
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-pagination{
+    position: initial;
+}
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
 
 .recomendacao{
     font-family: 'Poppins', sans-serif;
@@ -53,3 +70,4 @@
 .item_botao{
     margin: 0 1em;
 }
+
