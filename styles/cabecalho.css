@@ -45,3 +45,58 @@
 .clique_menu_burguer{
     display: none;
 }
+.logo{
+    display: none;
+}
+.cabecalho{
+    align-items: center;
+}
+.lista_adicao{
+    display: none;
+}
+@media screen and (min-width:1024px){
+ .burguer_menu{
+    display: none;
+ }
+ .coracao{
+    display: none;
+ }
+ .logo{
+    display: block;
+    font-size: 1.875rem;
+    font-family: 'Josefin sans', sans-serif;
+
+ }
+.logo_negrito{
+    font-weight: 700;
+}
+.lista_adicao{
+    display: flex;
+}
+.adicao_item{
+    padding: 0 1em;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.adicao_link{
+    text-decoration: none;
+    color: var(--cor-letra);
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.interacao_menu_burguer:checked~.lista_links{
+    display: block;
+}
+.interacao_menu_burguer{
+    display: none;
+}
+.lista_links{
+    width: auto;
+    padding: 1em;
+}
+.item_lista{
+    padding: 0.5em 0;
+}
+}
