@@ -8,3 +8,44 @@ hr{
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
 }
+.lista_rodape{
+    display: none;
+}
+@media screen and (min-width:1024px) {
+    .rodape{
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Poppins', sans-serif;
+    }
+    .titulo_rodape{
+        font-size: 1.5rem;
+    }
+    .lista_rodape{
+        display: block;
+    }
+    .item_lista_rodape{
+        display: flex;
+        align-items: center;
+        padding: 0.5em 0;
+    }
+    .titulo_lista{
+        color: var(--titulo-lista-rodape);
+    }
+    .item_lista_rodape a{
+        text-decoration: none;
+        color: var(--texto-lista-rodape);
+        padding: 0 1em;
+    }
+}
+@media screen and (min-width:1728px) {
+    .rodape{
+        padding:4em ;
+    }
+    .lista_rodape{
+        border-left: 1px solid var(--texto-lista-rodape);
+        padding-left:0.8em ;
+    }
+    .titulo_lista{
+        padding-bottom: 0.5em;
+    }
+}

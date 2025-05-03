@@ -4,6 +4,8 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     padding: 2.5em 2em;
+    box-sizing: border-box;
+    width: 100vw;
 }
 .titulo_bunner_pesquisa{
     font-weight: 700;
@@ -29,4 +31,18 @@
     text-align: center;
     background: url(../img/Lupa.svg) no-repeat;
     background-position: 5%;
+}
+@media screen and (min-width:1024px){
+    .titulo_bunner_pesquisa{
+        font-size: 2.25rem;
+    }
+    .bunner_pesquisa{
+        padding: 5em 5em;
+    }
+    .form_pesquisa{
+        width: 50%;
+    }
+    .form_pesquisa::placeholder{
+        background-position: 4em;
+    }
 }

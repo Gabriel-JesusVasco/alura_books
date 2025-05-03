@@ -6,16 +6,35 @@
     font-weight: 700;
     color: var(--cor-destaque);
 }
+.carrossel_card {
+    width: 100%; 
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
 .swiper-slide img{
     width: 100%;
 }
+.swiper{
+    margin-left: auto;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .swiper-pagination{
     position: initial;
+    padding: 1em 0;
 }
+
 .swiper-button-prev, .swiper-button-next{
     display: none;
 }
-
+.card{
+    box-sizing: border-box;
+    max-width: 100%;
+}
 .recomendacao{
     font-family: 'Poppins', sans-serif;
     color: var(--cor-destaque);
@@ -71,3 +90,29 @@
     margin: 0 1em;
 }
 
+@media screen and (min-width:1024px) {
+    .titulo_carrossel{
+        font-size: 1.625rem;
+    }
+    .swiper{
+        width: 65%;
+    }
+    .card{
+        width: 60%;
+        margin: 5% auto;
+    }
+}
+@media screen and (min-width:1728px) {
+   .carrossel_card{
+    display: flex;
+    align-items: center;
+    margin: 2em 20vw 2em 20vw;
+    width: 60%;
+    gap: 2em;
+   }
+   .card{
+    position: relative;
+    top: 1.5em;
+   }
+
+}

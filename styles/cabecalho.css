@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    width: 100vw;
+    box-sizing: border-box;
 }
 .container_itens{
     display: flex;
@@ -15,7 +17,10 @@
     background-repeat: no-repeat;
 }
 .imagem_header{
-    padding: 1em;
+    padding: 1.5em;
+}
+.texto_sacola,.texto_perfil{
+    display: none;
 }
 .lista_links{
     display: none;
@@ -55,6 +60,9 @@
     display: none;
 }
 @media screen and (min-width:1024px){
+    .cabecalho{
+        justify-content: space-around;
+    }
  .burguer_menu{
     display: none;
  }
@@ -74,7 +82,7 @@
     display: flex;
 }
 .adicao_item{
-    padding: 0 1em;
+    padding: 0 1.5em;
     font-family: 'Poppins';
     font-weight: 400;
     text-transform: uppercase;
@@ -99,4 +107,24 @@
 .item_lista{
     padding: 0.5em 0;
 }
+.texto_perfil,.texto_sacola{
+    display: none;
+}
+}
+@media screen and (min-width:1728px) {
+    .sacola,.perfil{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .texto_sacola, .texto_perfil{
+        font-size: 1.25rem;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        color: var(--cor-letra);
+    }
+    .container_itens{
+        margin-left: auto;
+        padding-right: 10%;
+    }
 }
