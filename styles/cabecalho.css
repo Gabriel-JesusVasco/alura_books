@@ -42,7 +42,7 @@
     background: var(--gradiente);
 }
 .lista_titulo{
-    color: var(--cor-destaque);
+    -webkit-text-fill-color: var(--cor-destaque);
     font-weight: bold;
 }
 .item_lista{
@@ -50,10 +50,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    padding: 0.5em ;
 }
 .categoria_link{
     padding:5%;
     font-size: 1rem;
+    text-decoration: none;
 }
 .clique_menu_burguer{
     display: none;
