@@ -1,6 +1,6 @@
 .cabecalho{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-arround;
     position: relative;
     width: 100vw;
     box-sizing: border-box;
@@ -33,6 +33,14 @@
 .clique_menu_burguer:checked~.lista_links{
     display: block;
 }
+.clique_menu_burguer:checked~.label_burguer>.burguer_menu{
+    background-image: url(../img/Menu\ Aberto.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.clique_menu_burguer:checked~.label_burguer{
+    background: var(--gradiente);
+}
 .lista_titulo{
     color: var(--cor-destaque);
     font-weight: bold;
@@ -43,7 +51,7 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-.item_lista , .lista_titulo{
+.categoria_link{
     padding:5%;
     font-size: 1rem;
 }
@@ -97,6 +105,14 @@
 .interacao_menu_burguer:checked~.lista_links{
     display: block;
 }
+.interacao_menu_burguer:checked~.label_interacao>.adicao_item{
+    -webkit-text-fill-color: var(--fundo-secundario);
+    background: var(--gradiente);
+    padding: 1em;
+}
+.clique_menu_burguer:checked~.label_burguer{
+    background: var(--gradiente);
+}
 .interacao_menu_burguer{
     display: none;
 }
@@ -126,5 +142,13 @@
     .container_itens{
         margin-left: auto;
         padding-right: 10%;
+    }
+    .categoria_link:hover{
+        background: var(--gradiente);
+        -webkit-text-fill-color: var(--fundo-secundario);
+        padding: 0.5em;
+        padding-right: 1em;
+        text-decoration: none;
+        transition: 1s;
     }
 }
